@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.UrunDetayActivity">
+
+
+    <View
+        android:id="@+id/ustBar"
+        android:layout_width="0dp"
+        android:layout_height="92dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="4dp"
+        android:background="#9DD71C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ustBar" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/imgbtnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginBottom="20dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/ustBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn_back" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="17dp"
+        android:background="#FFFFFF"
+        android:text="Ürün Detayları"
+
+        android:textColor="#9DD71C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ustBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/ustBar"
+        app:layout_constraintTop_toTopOf="@+id/ustBar" />
+
+    <ImageButton
+        android:id="@+id/imgbtnShoppingCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="29dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/ustBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn_shopping_cart" />
+
+    <TextView
+        android:id="@+id/tvSepetFiyat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="20dp"
+        android:background="#9DD71C"
+        android:text="₺0,00"
+        android:textColor="#FE9000"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ustBar"
+        app:layout_constraintEnd_toEndOf="@+id/imgbtnShoppingCart"
+        app:layout_constraintStart_toStartOf="@+id/imgbtnShoppingCart"
+        app:layout_constraintTop_toBottomOf="@+id/imgbtnShoppingCart" />
+
+    <TextView
+        android:id="@+id/tvFiyat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="147dp"
+        android:background="#FFFFFF"
+        android:text="₺11,90"
+        android:textAlignment="center"
+        android:textColor="#FE9000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvUrunAdi" />
+
+    <ImageView
+        android:id="@+id/imgUrunGorsel"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="99dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#EAEAEA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgUrunGorsel" />
+
+    <TextView
+        android:id="@+id/tvMarka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="152dp"
+        android:text="Marka"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgUrunGorsel" />
+
+    <TextView
+        android:id="@+id/tvUrunAdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginEnd="152dp"
+        android:text="Ürün adı"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMarka" />
+
+    <TextView
+        android:id="@+id/tvUrunDetay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="64dp"
+        android:text="Ürüne dair detay açıklama"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvFiyat" />
+
+    <ImageButton
+        android:id="@+id/imgbtnAdd"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/btn_add_item_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvUrunDetay"
+        app:srcCompat="@drawable/btn_add_item" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

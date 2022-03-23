@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Kaan/AndroidStudioProjects/GelecegiYazanlarAliCanHoca/Sinav1/app/src/main/res/drawable/background.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Kaan/AndroidStudioProjects/GelecegiYazanlarAliCanHoca/Sinav1/app/src/main/res/drawable/btn_add_item.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/Kaan/AndroidStudioProjects/GelecegiYazanlarAliCanHoca/Sinav1/app/src/main/res/drawable/btn_add_item_backgorund.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/Kaan/AndroidStudioProjects/GelecegiYazanlarAliCanHoca/Sinav1/app/src/main/res/drawable/btn_add_item_background.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/Kaan/AndroidStudioProjects/GelecegiYazanlarAliCanHoca/Sinav1/app/src/main/res/drawable/btn_add_shopping_cart.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/Kaan/AndroidStudioProjects/GelecegiYazanlarAliCanHoca/Sinav1/app/src/main/res/drawable/btn_back.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/Kaan/AndroidStudioProjects/GelecegiYazanlarAliCanHoca/Sinav1/app/src/main/res/drawable/btn_background.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/Kaan/AndroidStudioProjects/GelecegiYazanlarAliCanHoca/Sinav1/app/src/main/res/drawable/btn_shopping_cart.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/Kaan/AndroidStudioProjects/GelecegiYazanlarAliCanHoca/Sinav1/app/src/main/res/drawable/et_background.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/Kaan/AndroidStudioProjects/GelecegiYazanlarAliCanHoca/Sinav1/app/src/main/res/drawable/invisible.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/Kaan/AndroidStudioProjects/GelecegiYazanlarAliCanHoca/Sinav1/app/src/main/res/drawable/rectangle_1.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Kaan/AndroidStudioProjects/GelecegiYazanlarAliCanHoca/Sinav1/app/src/main/res/drawable/rv_tur_background.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/Kaan/AndroidStudioProjects/GelecegiYazanlarAliCanHoca/Sinav1/app/src/main/res/drawable/rv_urun_background.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/Kaan/AndroidStudioProjects/GelecegiYazanlarAliCanHoca/Sinav1/app/src/main/res/drawable/visible.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/Kaan/AndroidStudioProjects/GelecegiYazanlarAliCanHoca/Sinav1/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Kaan/AndroidStudioProjects/GelecegiYazanlarAliCanHoca/Sinav1/app/src/main/res/layout/activity_urun_detay.xml" value="0.264" />
+        <entry key="..\:/Users/Kaan/AndroidStudioProjects/GelecegiYazanlarAliCanHoca/Sinav1/app/src/main/res/layout/activity_urunler.xml" value="0.3587962962962963" />
+        <entry key="..\:/Users/Kaan/AndroidStudioProjects/GelecegiYazanlarAliCanHoca/Sinav1/app/src/main/res/layout/rv_tur.xml" value="0.20742753623188406" />
+        <entry key="..\:/Users/Kaan/AndroidStudioProjects/GelecegiYazanlarAliCanHoca/Sinav1/app/src/main/res/layout/rv_urun.xml" value="1.0" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
