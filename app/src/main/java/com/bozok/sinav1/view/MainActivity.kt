@@ -35,7 +35,6 @@ class MainActivity : AppCompatActivity() {
 
         if(girilenTelNo==telNo && girilenSifre==sifre){
             val intent=Intent(this,UrunlerActivity::class.java)
-            //intent.putExtra("üyegirişi","üye")
             giris="üye"
             resultLauncher.launch(intent)
 
@@ -50,7 +49,6 @@ class MainActivity : AppCompatActivity() {
 
     fun uyeliksizGiris(){
         val intent=Intent(this,UrunlerActivity::class.java)
-        //intent.putExtra("üyeliksizgiriş","üyesiz")
         giris="üyeliksiz"
         resultLauncher.launch(intent)
     }
@@ -80,29 +78,3 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-/* <ImageButton
-        android:id="@+id/imgBtnInVisible"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="20dp"
-        android:background="#FFFFFF"
-        android:minWidth="48dp"
-        android:minHeight="48dp"
-        android:src="@drawable/invisible"
-        app:layout_constraintBottom_toBottomOf="@+id/etSifre"
-        app:layout_constraintEnd_toEndOf="@+id/etSifre"
-        app:layout_constraintTop_toTopOf="@+id/etSifre" />
-
-    <ImageButton
-        android:id="@+id/imgBtnVisible"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="20dp"
-        android:background="#FFFFFF"
-        android:minWidth="48dp"
-        android:minHeight="48dp"
-        android:src="@drawable/visible"
-        app:layout_constraintBottom_toBottomOf="@+id/etSifre"
-        app:layout_constraintEnd_toEndOf="@+id/etSifre"
-        app:layout_constraintTop_toTopOf="@+id/etSifre" />
-*/

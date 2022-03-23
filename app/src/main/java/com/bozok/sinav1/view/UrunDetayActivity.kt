@@ -24,23 +24,9 @@ class UrunDetayActivity : AppCompatActivity() {
         urun= intent.getSerializableExtra("ürün") as Urun?
 
         if(giris=="üye") {
-            binding.tvSepetFiyat.text = "₺$toplamFiyat"
-
-            binding.tvFiyat.text = urun!!.fiyat.toString()
-            binding.tvMarka.text = urun!!.marka
-            binding.tvUrunAdi.text = urun!!.ad
-            binding.imgUrunGorsel.setImageResource(urun!!.gorsel)
-            binding.tvUrunDetay.text = urun!!.aciklama
+          uyeGirisi()
         }else{
-            binding.tvFiyat.text = "₺"+urun!!.fiyat.toString()
-            binding.tvMarka.text = urun!!.marka
-            binding.tvUrunAdi.text = urun!!.ad
-            binding.imgUrunGorsel.setImageResource(urun!!.gorsel)
-            binding.tvUrunDetay.text = urun!!.aciklama
-
-            binding.imgbtnShoppingCart.visibility= View.GONE
-            binding.tvSepetFiyat.visibility=View.GONE
-            binding.imgbtnAdd.visibility=View.GONE
+            uyeliksizGiris()
         }
 
         binding.imgbtnBack.setOnClickListener {
@@ -51,11 +37,30 @@ class UrunDetayActivity : AppCompatActivity() {
             fiyat=binding.tvFiyat.text.toString().toDouble()
             toplamFiyat+=fiyat
             binding.tvSepetFiyat.text= "₺$toplamFiyat"
-
         }
 
 
     }
 
+    fun uyeGirisi(){
+        binding.tvSepetFiyat.text = "₺$toplamFiyat"
+        binding.tvFiyat.text = urun!!.fiyat.toString()
+        binding.tvMarka.text = urun!!.marka
+        binding.tvUrunAdi.text = urun!!.ad
+        binding.imgUrunGorsel.setImageResource(urun!!.gorsel)
+        binding.tvUrunDetay.text = urun!!.aciklama
+    }
+
+    fun uyeliksizGiris(){
+        binding.tvFiyat.text = "₺"+urun!!.fiyat.toString()
+        binding.tvMarka.text = urun!!.marka
+        binding.tvUrunAdi.text = urun!!.ad
+        binding.imgUrunGorsel.setImageResource(urun!!.gorsel)
+        binding.tvUrunDetay.text = urun!!.aciklama
+
+        binding.imgbtnShoppingCart.visibility= View.GONE
+        binding.tvSepetFiyat.visibility=View.GONE
+        binding.imgbtnAdd.visibility=View.GONE
+    }
 
 }

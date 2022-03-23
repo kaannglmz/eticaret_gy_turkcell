@@ -18,9 +18,7 @@ class TurViewHolder( itemView: View, var turClick:(position:Int)->Unit) :Recycle
         //tıklama işlemleri için
         itemView.setOnClickListener {
             turClick(adapterPosition)
-
         }
-
     }
 
     fun bindData(tur:Tur){
